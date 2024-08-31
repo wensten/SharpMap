@@ -9,11 +9,13 @@
         <Copyright>Copyright 2008-2019 SharpMap - Team</Copyright>
         <PackageTags>SharpMap GeoJson</PackageTags>
         <Description>This package contains SharpMap components to work with GeoJSON.</Description>
+        <Platforms>AnyCPU;x64;x86</Platforms>
     </PropertyGroup>
 
     <ItemGroup>
         <PackageReference Include="GeoAPI.Core" Version="1.7.5" />
-        <PackageReference Include="Newtonsoft.Json" Version="11.0.2" />
+        <PackageReference Include="Newtonsoft.Json" Version="13.0.3" />
+        <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
     </ItemGroup>
 
     <ItemGroup>

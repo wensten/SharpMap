@@ -11,6 +11,7 @@
         <NoWarn>1701;1702;2100;2235</NoWarn>
         <RootNamespace>SharpMap</RootNamespace>
         <AllowUnsafeBlocks>true</AllowUnsafeBlocks>
+        <Platforms>AnyCPU;ARM64;x64;x86</Platforms>
     </PropertyGroup>
 
     <ItemGroup>
@@ -19,9 +20,10 @@
       <PackageReference Include="NetTopologySuite.Features" Version="1.15.1" />
       <PackageReference Include="NetTopologySuite.IO.PostGis" Version="1.15.1" />
       <PackageReference Include="NetTopologySuite.IO.SpatiaLite" Version="1.15.1" />
-      <PackageReference Include="Npgsql" Version="4.0.10" />
-      <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.90" />
+      <PackageReference Include="Npgsql" Version="8.0.3" />
+      <PackageReference Include="Oracle.ManagedDataAccess.Core" Version="2.19.240" />
       <PackageReference Include="System.Data.SQLite.Core" Version="1.0.112" />
+      <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
     </ItemGroup>
     
     

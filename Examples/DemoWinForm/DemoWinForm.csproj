@@ -15,6 +15,7 @@
         <StartupObject>DemoWinForm.Program</StartupObject>
         <GeneratePackageOnBuild>false</GeneratePackageOnBuild>
         <NoWarn>618;1701;1702;1591</NoWarn>
+        <Platforms>AnyCPU;ARM64;x64;x86</Platforms>
 
     </PropertyGroup>
 
@@ -24,6 +25,7 @@
 
     <ItemGroup>
         <PackageReference Include="ProjNet4GeoAPI" Version="1.4.1" />
+        <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
     </ItemGroup>
 
     <ItemGroup>

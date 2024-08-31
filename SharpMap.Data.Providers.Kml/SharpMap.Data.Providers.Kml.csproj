@@ -9,10 +9,12 @@
         <PackageTags>sharpmap kml kmz</PackageTags>
         <Description>The package contains a base map layer solution based on BruTile.</Description>
         <NoWarn>1063</NoWarn>
+        <Platforms>AnyCPU;x64;x86</Platforms>
     </PropertyGroup>
 
     <ItemGroup>
       <PackageReference Include="SharpKml.Core" Version="5.1.0" />
+      <PackageReference Include="System.Drawing.Common" Version="8.0.8" />
     </ItemGroup>
 
     <ItemGroup>
