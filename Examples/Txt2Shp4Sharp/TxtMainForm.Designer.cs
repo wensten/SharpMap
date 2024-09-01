@@ -37,636 +37,667 @@ namespace Txt2Shp4Sharp
 			base.Dispose(disposing);
 		}
 
-		#region Windows Form Designer generated code
+        #region Windows Form Designer generated code
 
-		/// <summary>
-		/// Required method for Designer support - do not modify
-		/// the contents of this method with the code editor.
-		/// </summary>
-		private void InitializeComponent()
-		{
-            this.components = new System.ComponentModel.Container();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MainForm));
+        /// <summary>
+        /// Required method for Designer support - do not modify
+        /// the contents of this method with the code editor.
+        /// </summary>
+        private void InitializeComponent()
+        {
+            components = new System.ComponentModel.Container();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle2 = new System.Windows.Forms.DataGridViewCellStyle();
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle3 = new System.Windows.Forms.DataGridViewCellStyle();
-            this.toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
-            this.MainStatusStrip = new System.Windows.Forms.StatusStrip();
-            this.CoordinatesLabel = new System.Windows.Forms.ToolStripStatusLabel();
-            this.splitContainer1 = new System.Windows.Forms.SplitContainer();
-            this.LayerContextMenu = new System.Windows.Forms.ContextMenuStrip(this.components);
-            this.MoveUpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.MoveDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.LayerContextMenuSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.AddLayerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.RemoveLayerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
-            this.splitContainer2 = new System.Windows.Forms.SplitContainer();
-            this.FeaturesDataGridView = new System.Windows.Forms.DataGridView();
-            this.MainToolStrip = new System.Windows.Forms.ToolStrip();
-            this.NewToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.AddNewRandomGeometryLayer = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
-            this.OpenToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.SaveToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.PrintToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
-            this.CutToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.CopyToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.PasteToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
-            this.AddLayerToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.RemoveLayerToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
-            this.ZoomToExtentsToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.ZoomOutModeToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.ZoomInModeToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.PanToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.QueryModeToolStripButton = new System.Windows.Forms.ToolStripButton();
-            this.toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
-            this.splitContainer4 = new System.Windows.Forms.SplitContainer();
-            this.AddLayerDialog = new System.Windows.Forms.OpenFileDialog();
-            this.MainMapImage = new SharpMap.Forms.MapBox();
-            this.splitContainer3 = new System.Windows.Forms.SplitContainer();
-            this.LayersDataGridView = new System.Windows.Forms.DataGridView();
-            this.EnabledColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
-            this.LayerTypeColumn = new System.Windows.Forms.DataGridViewImageColumn();
-            this.LayerNameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.LayerPropertiesColumn = new System.Windows.Forms.DataGridViewButtonColumn();
-            this.miniMapControl1 = new SharpMap.Forms.MiniMapControl();
-            this.toolStripContainer1.BottomToolStripPanel.SuspendLayout();
-            this.toolStripContainer1.ContentPanel.SuspendLayout();
-            this.toolStripContainer1.TopToolStripPanel.SuspendLayout();
-            this.toolStripContainer1.SuspendLayout();
-            this.MainStatusStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).BeginInit();
-            this.splitContainer1.Panel1.SuspendLayout();
-            this.splitContainer1.Panel2.SuspendLayout();
-            this.splitContainer1.SuspendLayout();
-            this.LayerContextMenu.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).BeginInit();
-            this.splitContainer2.Panel1.SuspendLayout();
-            this.splitContainer2.Panel2.SuspendLayout();
-            this.splitContainer2.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.FeaturesDataGridView)).BeginInit();
-            this.MainToolStrip.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).BeginInit();
-            this.splitContainer4.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).BeginInit();
-            this.splitContainer3.Panel1.SuspendLayout();
-            this.splitContainer3.Panel2.SuspendLayout();
-            this.splitContainer3.SuspendLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.LayersDataGridView)).BeginInit();
-            this.SuspendLayout();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle4 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle5 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle6 = new System.Windows.Forms.DataGridViewCellStyle();
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(TxtMainForm));
+            toolStripContainer1 = new System.Windows.Forms.ToolStripContainer();
+            MainStatusStrip = new System.Windows.Forms.StatusStrip();
+            CoordinatesLabel = new System.Windows.Forms.ToolStripStatusLabel();
+            splitContainer1 = new System.Windows.Forms.SplitContainer();
+            splitContainer3 = new System.Windows.Forms.SplitContainer();
+            LayersDataGridView = new System.Windows.Forms.DataGridView();
+            EnabledColumn = new System.Windows.Forms.DataGridViewCheckBoxColumn();
+            LayerTypeColumn = new System.Windows.Forms.DataGridViewImageColumn();
+            LayerNameColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
+            LayerPropertiesColumn = new System.Windows.Forms.DataGridViewButtonColumn();
+            LayerContextMenu = new System.Windows.Forms.ContextMenuStrip(components);
+            MoveUpToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            MoveDownToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            LayerContextMenuSeparator = new System.Windows.Forms.ToolStripSeparator();
+            AddLayerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            RemoveLayerToolStripMenuItem = new System.Windows.Forms.ToolStripMenuItem();
+            miniMapControl1 = new SharpMap.Forms.MiniMapControl();
+            MainMapImage = new SharpMap.Forms.MapBox();
+            splitContainer2 = new System.Windows.Forms.SplitContainer();
+            FeaturesDataGridView = new System.Windows.Forms.DataGridView();
+            MainToolStrip = new System.Windows.Forms.ToolStrip();
+            NewToolStripButton = new System.Windows.Forms.ToolStripButton();
+            AddNewRandomGeometryLayer = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator4 = new System.Windows.Forms.ToolStripSeparator();
+            OpenToolStripButton = new System.Windows.Forms.ToolStripButton();
+            SaveToolStripButton = new System.Windows.Forms.ToolStripButton();
+            PrintToolStripButton = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator = new System.Windows.Forms.ToolStripSeparator();
+            CutToolStripButton = new System.Windows.Forms.ToolStripButton();
+            CopyToolStripButton = new System.Windows.Forms.ToolStripButton();
+            PasteToolStripButton = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator1 = new System.Windows.Forms.ToolStripSeparator();
+            AddLayerToolStripButton = new System.Windows.Forms.ToolStripButton();
+            RemoveLayerToolStripButton = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator3 = new System.Windows.Forms.ToolStripSeparator();
+            ZoomToExtentsToolStripButton = new System.Windows.Forms.ToolStripButton();
+            ZoomOutModeToolStripButton = new System.Windows.Forms.ToolStripButton();
+            ZoomInModeToolStripButton = new System.Windows.Forms.ToolStripButton();
+            PanToolStripButton = new System.Windows.Forms.ToolStripButton();
+            QueryModeToolStripButton = new System.Windows.Forms.ToolStripButton();
+            toolStripSeparator2 = new System.Windows.Forms.ToolStripSeparator();
+            toolStripButton_txt2shp = new System.Windows.Forms.ToolStripButton();
+            toolStripButton_shp2txt = new System.Windows.Forms.ToolStripButton();
+            toolStripButton_txtsplit = new System.Windows.Forms.ToolStripButton();
+            toolStripButton_txt2shpJWD = new System.Windows.Forms.ToolStripButton();
+            splitContainer4 = new System.Windows.Forms.SplitContainer();
+            AddLayerDialog = new System.Windows.Forms.OpenFileDialog();
+            toolStripContainer1.BottomToolStripPanel.SuspendLayout();
+            toolStripContainer1.ContentPanel.SuspendLayout();
+            toolStripContainer1.TopToolStripPanel.SuspendLayout();
+            toolStripContainer1.SuspendLayout();
+            MainStatusStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).BeginInit();
+            splitContainer1.Panel1.SuspendLayout();
+            splitContainer1.Panel2.SuspendLayout();
+            splitContainer1.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).BeginInit();
+            splitContainer3.Panel1.SuspendLayout();
+            splitContainer3.Panel2.SuspendLayout();
+            splitContainer3.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)LayersDataGridView).BeginInit();
+            LayerContextMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).BeginInit();
+            splitContainer2.Panel1.SuspendLayout();
+            splitContainer2.Panel2.SuspendLayout();
+            splitContainer2.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)FeaturesDataGridView).BeginInit();
+            MainToolStrip.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer4).BeginInit();
+            splitContainer4.SuspendLayout();
+            SuspendLayout();
             // 
             // toolStripContainer1
             // 
             // 
             // toolStripContainer1.BottomToolStripPanel
             // 
-            this.toolStripContainer1.BottomToolStripPanel.Controls.Add(this.MainStatusStrip);
+            toolStripContainer1.BottomToolStripPanel.Controls.Add(MainStatusStrip);
             // 
             // toolStripContainer1.ContentPanel
             // 
-            this.toolStripContainer1.ContentPanel.Controls.Add(this.splitContainer1);
-            this.toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(686, 452);
-            this.toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.toolStripContainer1.Location = new System.Drawing.Point(0, 0);
-            this.toolStripContainer1.Name = "toolStripContainer1";
-            this.toolStripContainer1.Size = new System.Drawing.Size(686, 499);
-            this.toolStripContainer1.TabIndex = 0;
-            this.toolStripContainer1.Text = "toolStripContainer1";
+            toolStripContainer1.ContentPanel.Controls.Add(splitContainer1);
+            toolStripContainer1.ContentPanel.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            toolStripContainer1.ContentPanel.Size = new System.Drawing.Size(915, 529);
+            toolStripContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            toolStripContainer1.Location = new System.Drawing.Point(0, 0);
+            toolStripContainer1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            toolStripContainer1.Name = "toolStripContainer1";
+            toolStripContainer1.Size = new System.Drawing.Size(915, 576);
+            toolStripContainer1.TabIndex = 0;
+            toolStripContainer1.Text = "toolStripContainer1";
             // 
             // toolStripContainer1.TopToolStripPanel
             // 
-            this.toolStripContainer1.TopToolStripPanel.Controls.Add(this.MainToolStrip);
+            toolStripContainer1.TopToolStripPanel.Controls.Add(MainToolStrip);
             // 
             // MainStatusStrip
             // 
-            this.MainStatusStrip.Dock = System.Windows.Forms.DockStyle.None;
-            this.MainStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.CoordinatesLabel});
-            this.MainStatusStrip.Location = new System.Drawing.Point(0, 0);
-            this.MainStatusStrip.Name = "MainStatusStrip";
-            this.MainStatusStrip.Size = new System.Drawing.Size(686, 22);
-            this.MainStatusStrip.TabIndex = 0;
+            MainStatusStrip.Dock = System.Windows.Forms.DockStyle.None;
+            MainStatusStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { CoordinatesLabel });
+            MainStatusStrip.Location = new System.Drawing.Point(0, 0);
+            MainStatusStrip.Name = "MainStatusStrip";
+            MainStatusStrip.Size = new System.Drawing.Size(915, 22);
+            MainStatusStrip.TabIndex = 0;
             // 
             // CoordinatesLabel
             // 
-            this.CoordinatesLabel.AutoSize = false;
-            this.CoordinatesLabel.Name = "CoordinatesLabel";
-            this.CoordinatesLabel.Size = new System.Drawing.Size(671, 17);
-            this.CoordinatesLabel.Spring = true;
+            CoordinatesLabel.AutoSize = false;
+            CoordinatesLabel.Name = "CoordinatesLabel";
+            CoordinatesLabel.Size = new System.Drawing.Size(900, 17);
+            CoordinatesLabel.Spring = true;
             // 
             // splitContainer1
             // 
-            this.splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer1.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer1.Name = "splitContainer1";
+            splitContainer1.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer1.Location = new System.Drawing.Point(0, 0);
+            splitContainer1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer1.Name = "splitContainer1";
             // 
             // splitContainer1.Panel1
             // 
-            this.splitContainer1.Panel1.Controls.Add(this.splitContainer3);
+            splitContainer1.Panel1.Controls.Add(splitContainer3);
             // 
             // splitContainer1.Panel2
             // 
-            this.splitContainer1.Panel2.Controls.Add(this.splitContainer2);
-            this.splitContainer1.Size = new System.Drawing.Size(686, 452);
-            this.splitContainer1.SplitterDistance = 186;
-            this.splitContainer1.TabIndex = 1;
-            // 
-            // LayerContextMenu
-            // 
-            this.LayerContextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.MoveUpToolStripMenuItem,
-            this.MoveDownToolStripMenuItem,
-            this.LayerContextMenuSeparator,
-            this.AddLayerToolStripMenuItem,
-            this.RemoveLayerToolStripMenuItem});
-            this.LayerContextMenu.Name = "LayerContextMenu";
-            this.LayerContextMenu.Size = new System.Drawing.Size(149, 98);
-            // 
-            // MoveUpToolStripMenuItem
-            // 
-            this.MoveUpToolStripMenuItem.Name = "MoveUpToolStripMenuItem";
-            this.MoveUpToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.MoveUpToolStripMenuItem.Text = "Move &Up";
-            this.MoveUpToolStripMenuItem.Visible = false;
-            this.MoveUpToolStripMenuItem.Click += new System.EventHandler(this.MoveUpToolStripMenuItem_Click);
-            // 
-            // MoveDownToolStripMenuItem
-            // 
-            this.MoveDownToolStripMenuItem.Name = "MoveDownToolStripMenuItem";
-            this.MoveDownToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.MoveDownToolStripMenuItem.Text = "Move &Down";
-            this.MoveDownToolStripMenuItem.Visible = false;
-            this.MoveDownToolStripMenuItem.Click += new System.EventHandler(this.MoveDownToolStripMenuItem_Click);
-            // 
-            // LayerContextMenuSeparator
-            // 
-            this.LayerContextMenuSeparator.Name = "LayerContextMenuSeparator";
-            this.LayerContextMenuSeparator.Size = new System.Drawing.Size(145, 6);
-            this.LayerContextMenuSeparator.Visible = false;
-            // 
-            // AddLayerToolStripMenuItem
-            // 
-            this.AddLayerToolStripMenuItem.Name = "AddLayerToolStripMenuItem";
-            this.AddLayerToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.AddLayerToolStripMenuItem.Text = "&Add Layer";
-            this.AddLayerToolStripMenuItem.Click += new System.EventHandler(this.AddLayerToolStripMenuItem_Click);
-            // 
-            // RemoveLayerToolStripMenuItem
-            // 
-            this.RemoveLayerToolStripMenuItem.Name = "RemoveLayerToolStripMenuItem";
-            this.RemoveLayerToolStripMenuItem.Size = new System.Drawing.Size(148, 22);
-            this.RemoveLayerToolStripMenuItem.Text = "&Remove Layer";
-            this.RemoveLayerToolStripMenuItem.Click += new System.EventHandler(this.RemoveLayerToolStripMenuItem_Click);
-            // 
-            // splitContainer2
-            // 
-            this.splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer2.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer2.Name = "splitContainer2";
-            this.splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            // 
-            // splitContainer2.Panel1
-            // 
-            this.splitContainer2.Panel1.Controls.Add(this.MainMapImage);
-            // 
-            // splitContainer2.Panel2
-            // 
-            this.splitContainer2.Panel2.Controls.Add(this.FeaturesDataGridView);
-            this.splitContainer2.Size = new System.Drawing.Size(496, 452);
-            this.splitContainer2.SplitterDistance = 277;
-            this.splitContainer2.TabIndex = 0;
-            // 
-            // FeaturesDataGridView
-            // 
-            this.FeaturesDataGridView.AllowUserToAddRows = false;
-            this.FeaturesDataGridView.AllowUserToDeleteRows = false;
-            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.FeaturesDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
-            this.FeaturesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
-            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.FeaturesDataGridView.DefaultCellStyle = dataGridViewCellStyle5;
-            this.FeaturesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.FeaturesDataGridView.Location = new System.Drawing.Point(0, 0);
-            this.FeaturesDataGridView.Name = "FeaturesDataGridView";
-            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
-            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
-            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
-            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
-            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.FeaturesDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
-            this.FeaturesDataGridView.Size = new System.Drawing.Size(496, 171);
-            this.FeaturesDataGridView.TabIndex = 0;
-            // 
-            // MainToolStrip
-            // 
-            this.MainToolStrip.Dock = System.Windows.Forms.DockStyle.None;
-            this.MainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] {
-            this.NewToolStripButton,
-            this.AddNewRandomGeometryLayer,
-            this.toolStripSeparator4,
-            this.OpenToolStripButton,
-            this.SaveToolStripButton,
-            this.PrintToolStripButton,
-            this.toolStripSeparator,
-            this.CutToolStripButton,
-            this.CopyToolStripButton,
-            this.PasteToolStripButton,
-            this.toolStripSeparator1,
-            this.AddLayerToolStripButton,
-            this.RemoveLayerToolStripButton,
-            this.toolStripSeparator3,
-            this.ZoomToExtentsToolStripButton,
-            this.ZoomOutModeToolStripButton,
-            this.ZoomInModeToolStripButton,
-            this.PanToolStripButton,
-            this.QueryModeToolStripButton,
-            this.toolStripSeparator2});
-            this.MainToolStrip.Location = new System.Drawing.Point(3, 0);
-            this.MainToolStrip.Name = "MainToolStrip";
-            this.MainToolStrip.Size = new System.Drawing.Size(387, 25);
-            this.MainToolStrip.TabIndex = 0;
-            // 
-            // NewToolStripButton
-            // 
-            this.NewToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.NewToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("NewToolStripButton.Image")));
-            this.NewToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.NewToolStripButton.Name = "NewToolStripButton";
-            this.NewToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.NewToolStripButton.Text = "&New";
-            // 
-            // AddNewRandomGeometryLayer
-            // 
-            this.AddNewRandomGeometryLayer.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.AddNewRandomGeometryLayer.Image = global::Txt2Shp4Sharp.Properties.Resources.NewRandomGeometry;
-            this.AddNewRandomGeometryLayer.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.AddNewRandomGeometryLayer.Name = "AddNewRandomGeometryLayer";
-            this.AddNewRandomGeometryLayer.Size = new System.Drawing.Size(23, 22);
-            this.AddNewRandomGeometryLayer.Text = "toolStripButton1";
-            this.AddNewRandomGeometryLayer.Click += new System.EventHandler(this.AddNewRandomGeometryLayer_Click);
-            // 
-            // toolStripSeparator4
-            // 
-            this.toolStripSeparator4.Name = "toolStripSeparator4";
-            this.toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
-            // 
-            // OpenToolStripButton
-            // 
-            this.OpenToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.OpenToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("OpenToolStripButton.Image")));
-            this.OpenToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.OpenToolStripButton.Name = "OpenToolStripButton";
-            this.OpenToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.OpenToolStripButton.Text = "&Open";
-            // 
-            // SaveToolStripButton
-            // 
-            this.SaveToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.SaveToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("SaveToolStripButton.Image")));
-            this.SaveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.SaveToolStripButton.Name = "SaveToolStripButton";
-            this.SaveToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.SaveToolStripButton.Text = "&Save";
-            // 
-            // PrintToolStripButton
-            // 
-            this.PrintToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.PrintToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("PrintToolStripButton.Image")));
-            this.PrintToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.PrintToolStripButton.Name = "PrintToolStripButton";
-            this.PrintToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.PrintToolStripButton.Text = "&Print";
-            // 
-            // toolStripSeparator
-            // 
-            this.toolStripSeparator.Name = "toolStripSeparator";
-            this.toolStripSeparator.Size = new System.Drawing.Size(6, 25);
-            // 
-            // CutToolStripButton
-            // 
-            this.CutToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.CutToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("CutToolStripButton.Image")));
-            this.CutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.CutToolStripButton.Name = "CutToolStripButton";
-            this.CutToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.CutToolStripButton.Text = "C&ut";
-            // 
-            // CopyToolStripButton
-            // 
-            this.CopyToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.CopyToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("CopyToolStripButton.Image")));
-            this.CopyToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.CopyToolStripButton.Name = "CopyToolStripButton";
-            this.CopyToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.CopyToolStripButton.Text = "&Copy";
-            // 
-            // PasteToolStripButton
-            // 
-            this.PasteToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.PasteToolStripButton.Image = ((System.Drawing.Image)(resources.GetObject("PasteToolStripButton.Image")));
-            this.PasteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.PasteToolStripButton.Name = "PasteToolStripButton";
-            this.PasteToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.PasteToolStripButton.Text = "&Paste";
-            // 
-            // toolStripSeparator1
-            // 
-            this.toolStripSeparator1.Name = "toolStripSeparator1";
-            this.toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
-            // 
-            // AddLayerToolStripButton
-            // 
-            this.AddLayerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.AddLayerToolStripButton.Image = global::Txt2Shp4Sharp.Properties.Resources.AddTableHS;
-            this.AddLayerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.AddLayerToolStripButton.Name = "AddLayerToolStripButton";
-            this.AddLayerToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.AddLayerToolStripButton.Text = "Add Layer";
-            this.AddLayerToolStripButton.Click += new System.EventHandler(this.AddLayerToolStripButton_Click);
-            // 
-            // RemoveLayerToolStripButton
-            // 
-            this.RemoveLayerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.RemoveLayerToolStripButton.Image = global::Txt2Shp4Sharp.Properties.Resources.RemoveTable;
-            this.RemoveLayerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.RemoveLayerToolStripButton.Name = "RemoveLayerToolStripButton";
-            this.RemoveLayerToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.RemoveLayerToolStripButton.Text = "Remove Layer";
-            this.RemoveLayerToolStripButton.Click += new System.EventHandler(this.RemoveLayerToolStripButton_Click);
-            // 
-            // toolStripSeparator3
-            // 
-            this.toolStripSeparator3.Name = "toolStripSeparator3";
-            this.toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
-            // 
-            // ZoomToExtentsToolStripButton
-            // 
-            this.ZoomToExtentsToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ZoomToExtentsToolStripButton.Image = global::Txt2Shp4Sharp.Properties.Resources.ZoomToExtents;
-            this.ZoomToExtentsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ZoomToExtentsToolStripButton.Name = "ZoomToExtentsToolStripButton";
-            this.ZoomToExtentsToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.ZoomToExtentsToolStripButton.Text = "Zoom to Extents";
-            this.ZoomToExtentsToolStripButton.Click += new System.EventHandler(this.ZoomToExtentsToolStripButton_Click);
-            // 
-            // ZoomOutModeToolStripButton
-            // 
-            this.ZoomOutModeToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ZoomOutModeToolStripButton.Image = global::Txt2Shp4Sharp.Properties.Resources.ZoomOut;
-            this.ZoomOutModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ZoomOutModeToolStripButton.Name = "ZoomOutModeToolStripButton";
-            this.ZoomOutModeToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.ZoomOutModeToolStripButton.Text = "Zoom Out";
-            this.ZoomOutModeToolStripButton.Click += new System.EventHandler(this.ZoomOutModeToolStripButton_Click);
-            // 
-            // ZoomInModeToolStripButton
-            // 
-            this.ZoomInModeToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.ZoomInModeToolStripButton.Image = global::Txt2Shp4Sharp.Properties.Resources.ZoomIn;
-            this.ZoomInModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.ZoomInModeToolStripButton.Name = "ZoomInModeToolStripButton";
-            this.ZoomInModeToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.ZoomInModeToolStripButton.Text = "Zoom In";
-            this.ZoomInModeToolStripButton.Click += new System.EventHandler(this.ZoomInModeToolStripButton_Click);
-            // 
-            // PanToolStripButton
-            // 
-            this.PanToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.PanToolStripButton.Image = global::Txt2Shp4Sharp.Properties.Resources.pan;
-            this.PanToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.PanToolStripButton.Name = "PanToolStripButton";
-            this.PanToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.PanToolStripButton.Text = "Pan";
-            this.PanToolStripButton.Click += new System.EventHandler(this.PanToolStripButton_Click);
-            // 
-            // QueryModeToolStripButton
-            // 
-            this.QueryModeToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
-            this.QueryModeToolStripButton.Image = global::Txt2Shp4Sharp.Properties.Resources.query;
-            this.QueryModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
-            this.QueryModeToolStripButton.Name = "QueryModeToolStripButton";
-            this.QueryModeToolStripButton.Size = new System.Drawing.Size(23, 22);
-            this.QueryModeToolStripButton.Text = "Query";
-            this.QueryModeToolStripButton.Click += new System.EventHandler(this.QueryModeToolStripButton_Click);
-            // 
-            // toolStripSeparator2
-            // 
-            this.toolStripSeparator2.Name = "toolStripSeparator2";
-            this.toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
-            // 
-            // splitContainer4
-            // 
-            this.splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer4.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer4.Name = "splitContainer4";
-            this.splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
-            this.splitContainer4.Size = new System.Drawing.Size(481, 358);
-            this.splitContainer4.SplitterDistance = 220;
-            this.splitContainer4.TabIndex = 0;
-            // 
-            // AddLayerDialog
-            // 
-            this.AddLayerDialog.Filter = "Shapefiles|*.shp|All files|*.*";
-            this.AddLayerDialog.InitialDirectory = ".";
-            this.AddLayerDialog.Multiselect = true;
-            this.AddLayerDialog.RestoreDirectory = true;
-            this.AddLayerDialog.Title = "Choose Layer Data";
-            // 
-            // MainMapImage
-            // 
-            this.MainMapImage.ActiveTool = SharpMap.Forms.MapBox.Tools.Pan;
-            this.MainMapImage.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.MainMapImage.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.MainMapImage.FineZoomFactor = 10D;
-            this.MainMapImage.Location = new System.Drawing.Point(0, 0);
-            this.MainMapImage.MapQueryMode = SharpMap.Forms.MapBox.MapQueryType.LayerByIndex;
-            this.MainMapImage.Name = "MainMapImage";
-            this.MainMapImage.PanOnClick = false;
-            this.MainMapImage.QueryGrowFactor = 5F;
-            this.MainMapImage.QueryLayerIndex = 0;
-            this.MainMapImage.SelectionBackColor = System.Drawing.Color.FromArgb(((int)(((byte)(210)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.MainMapImage.SelectionForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(244)))), ((int)(((byte)(244)))), ((int)(((byte)(244)))));
-            this.MainMapImage.ShowProgressUpdate = false;
-            this.MainMapImage.Size = new System.Drawing.Size(496, 277);
-            this.MainMapImage.TabIndex = 0;
-            this.MainMapImage.TabStop = false;
-            this.MainMapImage.WheelZoomMagnitude = 2D;
-            this.MainMapImage.MouseMove += new SharpMap.Forms.MapBox.MouseEventHandler(this.MainMapImage_MouseMove);
+            splitContainer1.Panel2.Controls.Add(splitContainer2);
+            splitContainer1.Size = new System.Drawing.Size(915, 529);
+            splitContainer1.SplitterDistance = 248;
+            splitContainer1.SplitterWidth = 5;
+            splitContainer1.TabIndex = 1;
             // 
             // splitContainer3
             // 
-            this.splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.splitContainer3.Location = new System.Drawing.Point(0, 0);
-            this.splitContainer3.Name = "splitContainer3";
-            this.splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer3.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer3.Location = new System.Drawing.Point(0, 0);
+            splitContainer3.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer3.Name = "splitContainer3";
+            splitContainer3.Orientation = System.Windows.Forms.Orientation.Horizontal;
             // 
             // splitContainer3.Panel1
             // 
-            this.splitContainer3.Panel1.Controls.Add(this.LayersDataGridView);
+            splitContainer3.Panel1.Controls.Add(LayersDataGridView);
             // 
             // splitContainer3.Panel2
             // 
-            this.splitContainer3.Panel2.Controls.Add(this.miniMapControl1);
-            this.splitContainer3.Size = new System.Drawing.Size(186, 452);
-            this.splitContainer3.SplitterDistance = 310;
-            this.splitContainer3.TabIndex = 1;
+            splitContainer3.Panel2.Controls.Add(miniMapControl1);
+            splitContainer3.Size = new System.Drawing.Size(248, 529);
+            splitContainer3.SplitterDistance = 362;
+            splitContainer3.SplitterWidth = 5;
+            splitContainer3.TabIndex = 1;
             // 
             // LayersDataGridView
             // 
-            this.LayersDataGridView.AllowUserToAddRows = false;
-            this.LayersDataGridView.AllowUserToDeleteRows = false;
+            LayersDataGridView.AllowUserToAddRows = false;
+            LayersDataGridView.AllowUserToDeleteRows = false;
             dataGridViewCellStyle1.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle1.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle1.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             dataGridViewCellStyle1.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle1.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle1.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle1.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.LayersDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
-            this.LayersDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
-            this.LayersDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] {
-            this.EnabledColumn,
-            this.LayerTypeColumn,
-            this.LayerNameColumn,
-            this.LayerPropertiesColumn});
-            this.LayersDataGridView.ContextMenuStrip = this.LayerContextMenu;
+            LayersDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
+            LayersDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            LayersDataGridView.Columns.AddRange(new System.Windows.Forms.DataGridViewColumn[] { EnabledColumn, LayerTypeColumn, LayerNameColumn, LayerPropertiesColumn });
+            LayersDataGridView.ContextMenuStrip = LayerContextMenu;
             dataGridViewCellStyle2.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle2.BackColor = System.Drawing.SystemColors.Window;
-            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle2.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             dataGridViewCellStyle2.ForeColor = System.Drawing.SystemColors.ControlText;
             dataGridViewCellStyle2.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle2.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle2.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
-            this.LayersDataGridView.DefaultCellStyle = dataGridViewCellStyle2;
-            this.LayersDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.LayersDataGridView.GridColor = System.Drawing.SystemColors.ControlLightLight;
-            this.LayersDataGridView.Location = new System.Drawing.Point(0, 0);
-            this.LayersDataGridView.MultiSelect = false;
-            this.LayersDataGridView.Name = "LayersDataGridView";
-            this.LayersDataGridView.ReadOnly = true;
+            LayersDataGridView.DefaultCellStyle = dataGridViewCellStyle2;
+            LayersDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            LayersDataGridView.GridColor = System.Drawing.SystemColors.ControlLightLight;
+            LayersDataGridView.Location = new System.Drawing.Point(0, 0);
+            LayersDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            LayersDataGridView.MultiSelect = false;
+            LayersDataGridView.Name = "LayersDataGridView";
+            LayersDataGridView.ReadOnly = true;
             dataGridViewCellStyle3.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
             dataGridViewCellStyle3.BackColor = System.Drawing.SystemColors.Control;
-            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            dataGridViewCellStyle3.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
             dataGridViewCellStyle3.ForeColor = System.Drawing.SystemColors.WindowText;
             dataGridViewCellStyle3.SelectionBackColor = System.Drawing.SystemColors.Highlight;
             dataGridViewCellStyle3.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
             dataGridViewCellStyle3.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
-            this.LayersDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
-            this.LayersDataGridView.RowHeadersVisible = false;
-            this.LayersDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
-            this.LayersDataGridView.Size = new System.Drawing.Size(186, 310);
-            this.LayersDataGridView.TabIndex = 1;
+            LayersDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle3;
+            LayersDataGridView.RowHeadersVisible = false;
+            LayersDataGridView.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
+            LayersDataGridView.Size = new System.Drawing.Size(248, 362);
+            LayersDataGridView.TabIndex = 1;
             // 
             // EnabledColumn
             // 
-            this.EnabledColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.EnabledColumn.Frozen = true;
-            this.EnabledColumn.HeaderText = "";
-            this.EnabledColumn.MinimumWidth = 25;
-            this.EnabledColumn.Name = "EnabledColumn";
-            this.EnabledColumn.ReadOnly = true;
-            this.EnabledColumn.Width = 25;
+            EnabledColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            EnabledColumn.Frozen = true;
+            EnabledColumn.HeaderText = "";
+            EnabledColumn.MinimumWidth = 25;
+            EnabledColumn.Name = "EnabledColumn";
+            EnabledColumn.ReadOnly = true;
+            EnabledColumn.Width = 25;
             // 
             // LayerTypeColumn
             // 
-            this.LayerTypeColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.LayerTypeColumn.HeaderText = "";
-            this.LayerTypeColumn.MinimumWidth = 25;
-            this.LayerTypeColumn.Name = "LayerTypeColumn";
-            this.LayerTypeColumn.ReadOnly = true;
-            this.LayerTypeColumn.Width = 25;
+            LayerTypeColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            LayerTypeColumn.HeaderText = "";
+            LayerTypeColumn.MinimumWidth = 25;
+            LayerTypeColumn.Name = "LayerTypeColumn";
+            LayerTypeColumn.ReadOnly = true;
+            LayerTypeColumn.Width = 25;
             // 
             // LayerNameColumn
             // 
-            this.LayerNameColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
-            this.LayerNameColumn.HeaderText = "Layer";
-            this.LayerNameColumn.Name = "LayerNameColumn";
-            this.LayerNameColumn.ReadOnly = true;
+            LayerNameColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.Fill;
+            LayerNameColumn.HeaderText = "Layer";
+            LayerNameColumn.Name = "LayerNameColumn";
+            LayerNameColumn.ReadOnly = true;
             // 
             // LayerPropertiesColumn
             // 
-            this.LayerPropertiesColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
-            this.LayerPropertiesColumn.HeaderText = "";
-            this.LayerPropertiesColumn.MinimumWidth = 25;
-            this.LayerPropertiesColumn.Name = "LayerPropertiesColumn";
-            this.LayerPropertiesColumn.ReadOnly = true;
-            this.LayerPropertiesColumn.Width = 25;
+            LayerPropertiesColumn.AutoSizeMode = System.Windows.Forms.DataGridViewAutoSizeColumnMode.None;
+            LayerPropertiesColumn.HeaderText = "";
+            LayerPropertiesColumn.MinimumWidth = 25;
+            LayerPropertiesColumn.Name = "LayerPropertiesColumn";
+            LayerPropertiesColumn.ReadOnly = true;
+            LayerPropertiesColumn.Width = 25;
+            // 
+            // LayerContextMenu
+            // 
+            LayerContextMenu.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { MoveUpToolStripMenuItem, MoveDownToolStripMenuItem, LayerContextMenuSeparator, AddLayerToolStripMenuItem, RemoveLayerToolStripMenuItem });
+            LayerContextMenu.Name = "LayerContextMenu";
+            LayerContextMenu.Size = new System.Drawing.Size(182, 106);
+            // 
+            // MoveUpToolStripMenuItem
+            // 
+            MoveUpToolStripMenuItem.Name = "MoveUpToolStripMenuItem";
+            MoveUpToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
+            MoveUpToolStripMenuItem.Text = "Move &Up";
+            MoveUpToolStripMenuItem.Visible = false;
+            MoveUpToolStripMenuItem.Click += MoveUpToolStripMenuItem_Click;
+            // 
+            // MoveDownToolStripMenuItem
+            // 
+            MoveDownToolStripMenuItem.Name = "MoveDownToolStripMenuItem";
+            MoveDownToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
+            MoveDownToolStripMenuItem.Text = "Move &Down";
+            MoveDownToolStripMenuItem.Visible = false;
+            MoveDownToolStripMenuItem.Click += MoveDownToolStripMenuItem_Click;
+            // 
+            // LayerContextMenuSeparator
+            // 
+            LayerContextMenuSeparator.Name = "LayerContextMenuSeparator";
+            LayerContextMenuSeparator.Size = new System.Drawing.Size(178, 6);
+            LayerContextMenuSeparator.Visible = false;
+            // 
+            // AddLayerToolStripMenuItem
+            // 
+            AddLayerToolStripMenuItem.Name = "AddLayerToolStripMenuItem";
+            AddLayerToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
+            AddLayerToolStripMenuItem.Text = "&Add Layer";
+            AddLayerToolStripMenuItem.Click += AddLayerToolStripMenuItem_Click;
+            // 
+            // RemoveLayerToolStripMenuItem
+            // 
+            RemoveLayerToolStripMenuItem.Name = "RemoveLayerToolStripMenuItem";
+            RemoveLayerToolStripMenuItem.Size = new System.Drawing.Size(181, 24);
+            RemoveLayerToolStripMenuItem.Text = "&Remove Layer";
+            RemoveLayerToolStripMenuItem.Click += RemoveLayerToolStripMenuItem_Click;
             // 
             // miniMapControl1
             // 
-            this.miniMapControl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
-            this.miniMapControl1.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D;
-            this.miniMapControl1.Cursor = System.Windows.Forms.Cursors.Hand;
-            this.miniMapControl1.Dock = System.Windows.Forms.DockStyle.Fill;
-            this.miniMapControl1.Location = new System.Drawing.Point(0, 0);
-            this.miniMapControl1.MapControl = this.MainMapImage;
-            this.miniMapControl1.Name = "miniMapControl1";
-            this.miniMapControl1.Size = new System.Drawing.Size(186, 138);
-            this.miniMapControl1.TabIndex = 0;
+            miniMapControl1.BackgroundImageLayout = System.Windows.Forms.ImageLayout.None;
+            miniMapControl1.Cursor = System.Windows.Forms.Cursors.Hand;
+            miniMapControl1.Dock = System.Windows.Forms.DockStyle.Fill;
+            miniMapControl1.FrameBrushColor = System.Drawing.Color.Red;
+            miniMapControl1.FrameHaloColor = System.Drawing.Color.Empty;
+            miniMapControl1.FramePenAlignment = System.Drawing.Drawing2D.PenAlignment.Center;
+            miniMapControl1.FramePenDashStyle = System.Drawing.Drawing2D.DashStyle.Solid;
+            miniMapControl1.Location = new System.Drawing.Point(0, 0);
+            miniMapControl1.MapControl = MainMapImage;
+            miniMapControl1.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            miniMapControl1.Name = "miniMapControl1";
+            miniMapControl1.ResizeInterval = 500;
+            miniMapControl1.Size = new System.Drawing.Size(248, 162);
+            miniMapControl1.TabIndex = 0;
             // 
-            // MainForm
+            // MainMapImage
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
-            this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(686, 499);
-            this.Controls.Add(this.toolStripContainer1);
-            this.Name = "MainForm";
-            this.Text = "Form1";
-            this.toolStripContainer1.BottomToolStripPanel.ResumeLayout(false);
-            this.toolStripContainer1.BottomToolStripPanel.PerformLayout();
-            this.toolStripContainer1.ContentPanel.ResumeLayout(false);
-            this.toolStripContainer1.TopToolStripPanel.ResumeLayout(false);
-            this.toolStripContainer1.TopToolStripPanel.PerformLayout();
-            this.toolStripContainer1.ResumeLayout(false);
-            this.toolStripContainer1.PerformLayout();
-            this.MainStatusStrip.ResumeLayout(false);
-            this.MainStatusStrip.PerformLayout();
-            this.splitContainer1.Panel1.ResumeLayout(false);
-            this.splitContainer1.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer1)).EndInit();
-            this.splitContainer1.ResumeLayout(false);
-            this.LayerContextMenu.ResumeLayout(false);
-            this.splitContainer2.Panel1.ResumeLayout(false);
-            this.splitContainer2.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer2)).EndInit();
-            this.splitContainer2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.FeaturesDataGridView)).EndInit();
-            this.MainToolStrip.ResumeLayout(false);
-            this.MainToolStrip.PerformLayout();
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer4)).EndInit();
-            this.splitContainer4.ResumeLayout(false);
-            this.splitContainer3.Panel1.ResumeLayout(false);
-            this.splitContainer3.Panel2.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.splitContainer3)).EndInit();
-            this.splitContainer3.ResumeLayout(false);
-            ((System.ComponentModel.ISupportInitialize)(this.LayersDataGridView)).EndInit();
-            this.ResumeLayout(false);
+            MainMapImage.ActiveTool = SharpMap.Forms.MapBox.Tools.Pan;
+            MainMapImage.Cursor = System.Windows.Forms.Cursors.Hand;
+            MainMapImage.CustomTool = null;
+            MainMapImage.Dock = System.Windows.Forms.DockStyle.Fill;
+            MainMapImage.FineZoomFactor = 10D;
+            MainMapImage.Location = new System.Drawing.Point(0, 0);
+            MainMapImage.MapQueryMode = SharpMap.Forms.MapBox.MapQueryType.LayerByIndex;
+            MainMapImage.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            MainMapImage.Name = "MainMapImage";
+            MainMapImage.PanOnClick = false;
+            MainMapImage.QueryGrowFactor = 5F;
+            MainMapImage.QueryLayerIndex = 0;
+            MainMapImage.SelectionBackColor = System.Drawing.Color.FromArgb(210, 244, 244, 244);
+            MainMapImage.SelectionForeColor = System.Drawing.Color.FromArgb(244, 244, 244);
+            MainMapImage.ShowProgressUpdate = false;
+            MainMapImage.Size = new System.Drawing.Size(662, 324);
+            MainMapImage.TabIndex = 0;
+            MainMapImage.TabStop = false;
+            MainMapImage.WheelZoomMagnitude = 2D;
+            MainMapImage.MouseMove += MainMapImage_MouseMove;
+            // 
+            // splitContainer2
+            // 
+            splitContainer2.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer2.Location = new System.Drawing.Point(0, 0);
+            splitContainer2.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            splitContainer2.Name = "splitContainer2";
+            splitContainer2.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            // 
+            // splitContainer2.Panel1
+            // 
+            splitContainer2.Panel1.Controls.Add(MainMapImage);
+            // 
+            // splitContainer2.Panel2
+            // 
+            splitContainer2.Panel2.Controls.Add(FeaturesDataGridView);
+            splitContainer2.Size = new System.Drawing.Size(662, 529);
+            splitContainer2.SplitterDistance = 324;
+            splitContainer2.SplitterWidth = 5;
+            splitContainer2.TabIndex = 0;
+            // 
+            // FeaturesDataGridView
+            // 
+            FeaturesDataGridView.AllowUserToAddRows = false;
+            FeaturesDataGridView.AllowUserToDeleteRows = false;
+            dataGridViewCellStyle4.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle4.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle4.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            dataGridViewCellStyle4.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle4.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle4.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle4.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            FeaturesDataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle4;
+            FeaturesDataGridView.ColumnHeadersHeightSizeMode = System.Windows.Forms.DataGridViewColumnHeadersHeightSizeMode.AutoSize;
+            dataGridViewCellStyle5.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle5.BackColor = System.Drawing.SystemColors.Window;
+            dataGridViewCellStyle5.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            dataGridViewCellStyle5.ForeColor = System.Drawing.SystemColors.ControlText;
+            dataGridViewCellStyle5.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle5.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle5.WrapMode = System.Windows.Forms.DataGridViewTriState.False;
+            FeaturesDataGridView.DefaultCellStyle = dataGridViewCellStyle5;
+            FeaturesDataGridView.Dock = System.Windows.Forms.DockStyle.Fill;
+            FeaturesDataGridView.Location = new System.Drawing.Point(0, 0);
+            FeaturesDataGridView.Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            FeaturesDataGridView.Name = "FeaturesDataGridView";
+            dataGridViewCellStyle6.Alignment = System.Windows.Forms.DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle6.BackColor = System.Drawing.SystemColors.Control;
+            dataGridViewCellStyle6.Font = new System.Drawing.Font("Microsoft Sans Serif", 8.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, 0);
+            dataGridViewCellStyle6.ForeColor = System.Drawing.SystemColors.WindowText;
+            dataGridViewCellStyle6.SelectionBackColor = System.Drawing.SystemColors.Highlight;
+            dataGridViewCellStyle6.SelectionForeColor = System.Drawing.SystemColors.HighlightText;
+            dataGridViewCellStyle6.WrapMode = System.Windows.Forms.DataGridViewTriState.True;
+            FeaturesDataGridView.RowHeadersDefaultCellStyle = dataGridViewCellStyle6;
+            FeaturesDataGridView.Size = new System.Drawing.Size(662, 200);
+            FeaturesDataGridView.TabIndex = 0;
+            // 
+            // MainToolStrip
+            // 
+            MainToolStrip.Dock = System.Windows.Forms.DockStyle.None;
+            MainToolStrip.Items.AddRange(new System.Windows.Forms.ToolStripItem[] { NewToolStripButton, AddNewRandomGeometryLayer, toolStripSeparator4, OpenToolStripButton, SaveToolStripButton, PrintToolStripButton, toolStripSeparator, CutToolStripButton, CopyToolStripButton, PasteToolStripButton, toolStripSeparator1, AddLayerToolStripButton, RemoveLayerToolStripButton, toolStripSeparator3, ZoomToExtentsToolStripButton, ZoomOutModeToolStripButton, ZoomInModeToolStripButton, PanToolStripButton, QueryModeToolStripButton, toolStripSeparator2, toolStripButton_txt2shp, toolStripButton_shp2txt, toolStripButton_txtsplit, toolStripButton_txt2shpJWD });
+            MainToolStrip.Location = new System.Drawing.Point(3, 0);
+            MainToolStrip.Name = "MainToolStrip";
+            MainToolStrip.Size = new System.Drawing.Size(518, 25);
+            MainToolStrip.TabIndex = 0;
+            // 
+            // NewToolStripButton
+            // 
+            NewToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            NewToolStripButton.Image = (System.Drawing.Image)resources.GetObject("NewToolStripButton.Image");
+            NewToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            NewToolStripButton.Name = "NewToolStripButton";
+            NewToolStripButton.Size = new System.Drawing.Size(23, 22);
+            NewToolStripButton.Text = "&New";
+            // 
+            // AddNewRandomGeometryLayer
+            // 
+            AddNewRandomGeometryLayer.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            AddNewRandomGeometryLayer.Image = Properties.Resources.NewRandomGeometry;
+            AddNewRandomGeometryLayer.ImageTransparentColor = System.Drawing.Color.Magenta;
+            AddNewRandomGeometryLayer.Name = "AddNewRandomGeometryLayer";
+            AddNewRandomGeometryLayer.Size = new System.Drawing.Size(23, 22);
+            AddNewRandomGeometryLayer.Text = "toolStripButton1";
+            AddNewRandomGeometryLayer.Click += AddNewRandomGeometryLayer_Click;
+            // 
+            // toolStripSeparator4
+            // 
+            toolStripSeparator4.Name = "toolStripSeparator4";
+            toolStripSeparator4.Size = new System.Drawing.Size(6, 25);
+            // 
+            // OpenToolStripButton
+            // 
+            OpenToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            OpenToolStripButton.Image = (System.Drawing.Image)resources.GetObject("OpenToolStripButton.Image");
+            OpenToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            OpenToolStripButton.Name = "OpenToolStripButton";
+            OpenToolStripButton.Size = new System.Drawing.Size(23, 22);
+            OpenToolStripButton.Text = "&Open";
+            // 
+            // SaveToolStripButton
+            // 
+            SaveToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            SaveToolStripButton.Image = (System.Drawing.Image)resources.GetObject("SaveToolStripButton.Image");
+            SaveToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            SaveToolStripButton.Name = "SaveToolStripButton";
+            SaveToolStripButton.Size = new System.Drawing.Size(23, 22);
+            SaveToolStripButton.Text = "&Save";
+            // 
+            // PrintToolStripButton
+            // 
+            PrintToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            PrintToolStripButton.Image = (System.Drawing.Image)resources.GetObject("PrintToolStripButton.Image");
+            PrintToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            PrintToolStripButton.Name = "PrintToolStripButton";
+            PrintToolStripButton.Size = new System.Drawing.Size(23, 22);
+            PrintToolStripButton.Text = "&Print";
+            // 
+            // toolStripSeparator
+            // 
+            toolStripSeparator.Name = "toolStripSeparator";
+            toolStripSeparator.Size = new System.Drawing.Size(6, 25);
+            // 
+            // CutToolStripButton
+            // 
+            CutToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            CutToolStripButton.Image = (System.Drawing.Image)resources.GetObject("CutToolStripButton.Image");
+            CutToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            CutToolStripButton.Name = "CutToolStripButton";
+            CutToolStripButton.Size = new System.Drawing.Size(23, 22);
+            CutToolStripButton.Text = "C&ut";
+            // 
+            // CopyToolStripButton
+            // 
+            CopyToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            CopyToolStripButton.Image = (System.Drawing.Image)resources.GetObject("CopyToolStripButton.Image");
+            CopyToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            CopyToolStripButton.Name = "CopyToolStripButton";
+            CopyToolStripButton.Size = new System.Drawing.Size(23, 22);
+            CopyToolStripButton.Text = "&Copy";
+            // 
+            // PasteToolStripButton
+            // 
+            PasteToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            PasteToolStripButton.Image = (System.Drawing.Image)resources.GetObject("PasteToolStripButton.Image");
+            PasteToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            PasteToolStripButton.Name = "PasteToolStripButton";
+            PasteToolStripButton.Size = new System.Drawing.Size(23, 22);
+            PasteToolStripButton.Text = "&Paste";
+            // 
+            // toolStripSeparator1
+            // 
+            toolStripSeparator1.Name = "toolStripSeparator1";
+            toolStripSeparator1.Size = new System.Drawing.Size(6, 25);
+            // 
+            // AddLayerToolStripButton
+            // 
+            AddLayerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            AddLayerToolStripButton.Image = Properties.Resources.AddTableHS;
+            AddLayerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            AddLayerToolStripButton.Name = "AddLayerToolStripButton";
+            AddLayerToolStripButton.Size = new System.Drawing.Size(23, 22);
+            AddLayerToolStripButton.Text = "Add Layer";
+            AddLayerToolStripButton.Click += AddLayerToolStripButton_Click;
+            // 
+            // RemoveLayerToolStripButton
+            // 
+            RemoveLayerToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            RemoveLayerToolStripButton.Image = Properties.Resources.RemoveTable;
+            RemoveLayerToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            RemoveLayerToolStripButton.Name = "RemoveLayerToolStripButton";
+            RemoveLayerToolStripButton.Size = new System.Drawing.Size(23, 22);
+            RemoveLayerToolStripButton.Text = "Remove Layer";
+            RemoveLayerToolStripButton.Click += RemoveLayerToolStripButton_Click;
+            // 
+            // toolStripSeparator3
+            // 
+            toolStripSeparator3.Name = "toolStripSeparator3";
+            toolStripSeparator3.Size = new System.Drawing.Size(6, 25);
+            // 
+            // ZoomToExtentsToolStripButton
+            // 
+            ZoomToExtentsToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            ZoomToExtentsToolStripButton.Image = Properties.Resources.ZoomToExtents;
+            ZoomToExtentsToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            ZoomToExtentsToolStripButton.Name = "ZoomToExtentsToolStripButton";
+            ZoomToExtentsToolStripButton.Size = new System.Drawing.Size(23, 22);
+            ZoomToExtentsToolStripButton.Text = "Zoom to Extents";
+            ZoomToExtentsToolStripButton.Click += ZoomToExtentsToolStripButton_Click;
+            // 
+            // ZoomOutModeToolStripButton
+            // 
+            ZoomOutModeToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            ZoomOutModeToolStripButton.Image = Properties.Resources.ZoomOut;
+            ZoomOutModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            ZoomOutModeToolStripButton.Name = "ZoomOutModeToolStripButton";
+            ZoomOutModeToolStripButton.Size = new System.Drawing.Size(23, 22);
+            ZoomOutModeToolStripButton.Text = "Zoom Out";
+            ZoomOutModeToolStripButton.Click += ZoomOutModeToolStripButton_Click;
+            // 
+            // ZoomInModeToolStripButton
+            // 
+            ZoomInModeToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            ZoomInModeToolStripButton.Image = Properties.Resources.ZoomIn;
+            ZoomInModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            ZoomInModeToolStripButton.Name = "ZoomInModeToolStripButton";
+            ZoomInModeToolStripButton.Size = new System.Drawing.Size(23, 22);
+            ZoomInModeToolStripButton.Text = "Zoom In";
+            ZoomInModeToolStripButton.Click += ZoomInModeToolStripButton_Click;
+            // 
+            // PanToolStripButton
+            // 
+            PanToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            PanToolStripButton.Image = Properties.Resources.pan;
+            PanToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            PanToolStripButton.Name = "PanToolStripButton";
+            PanToolStripButton.Size = new System.Drawing.Size(23, 22);
+            PanToolStripButton.Text = "Pan";
+            PanToolStripButton.Click += PanToolStripButton_Click;
+            // 
+            // QueryModeToolStripButton
+            // 
+            QueryModeToolStripButton.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            QueryModeToolStripButton.Image = Properties.Resources.query;
+            QueryModeToolStripButton.ImageTransparentColor = System.Drawing.Color.Magenta;
+            QueryModeToolStripButton.Name = "QueryModeToolStripButton";
+            QueryModeToolStripButton.Size = new System.Drawing.Size(23, 22);
+            QueryModeToolStripButton.Text = "Query";
+            QueryModeToolStripButton.Click += QueryModeToolStripButton_Click;
+            // 
+            // toolStripSeparator2
+            // 
+            toolStripSeparator2.Name = "toolStripSeparator2";
+            toolStripSeparator2.Size = new System.Drawing.Size(6, 25);
+            // 
+            // toolStripButton_txt2shp
+            // 
+            toolStripButton_txt2shp.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            toolStripButton_txt2shp.Image = (System.Drawing.Image)resources.GetObject("toolStripButton_txt2shp.Image");
+            toolStripButton_txt2shp.ImageTransparentColor = System.Drawing.Color.Magenta;
+            toolStripButton_txt2shp.Name = "toolStripButton_txt2shp";
+            toolStripButton_txt2shp.Size = new System.Drawing.Size(23, 22);
+            toolStripButton_txt2shp.Text = "toolStripButton_txt2shp";
+            toolStripButton_txt2shp.Click += toolStripButton_txt2shp_Click;
+            // 
+            // toolStripButton_shp2txt
+            // 
+            toolStripButton_shp2txt.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            toolStripButton_shp2txt.Image = (System.Drawing.Image)resources.GetObject("toolStripButton_shp2txt.Image");
+            toolStripButton_shp2txt.ImageTransparentColor = System.Drawing.Color.Magenta;
+            toolStripButton_shp2txt.Name = "toolStripButton_shp2txt";
+            toolStripButton_shp2txt.Size = new System.Drawing.Size(23, 22);
+            toolStripButton_shp2txt.Text = "toolStripButton_shp2txt";
+            toolStripButton_shp2txt.Click += toolStripButton_txt2shp_Click;
+            // 
+            // toolStripButton_txtsplit
+            // 
+            toolStripButton_txtsplit.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            toolStripButton_txtsplit.Image = (System.Drawing.Image)resources.GetObject("toolStripButton_txtsplit.Image");
+            toolStripButton_txtsplit.ImageTransparentColor = System.Drawing.Color.Magenta;
+            toolStripButton_txtsplit.Name = "toolStripButton_txtsplit";
+            toolStripButton_txtsplit.Size = new System.Drawing.Size(23, 22);
+            toolStripButton_txtsplit.Text = "toolStripButton_txtsplit";
+            toolStripButton_txtsplit.Click += toolStripButton_txt2shp_Click;
+            // 
+            // toolStripButton_txt2shpJWD
+            // 
+            toolStripButton_txt2shpJWD.DisplayStyle = System.Windows.Forms.ToolStripItemDisplayStyle.Image;
+            toolStripButton_txt2shpJWD.Image = (System.Drawing.Image)resources.GetObject("toolStripButton_txt2shpJWD.Image");
+            toolStripButton_txt2shpJWD.ImageTransparentColor = System.Drawing.Color.Magenta;
+            toolStripButton_txt2shpJWD.Name = "toolStripButton_txt2shpJWD";
+            toolStripButton_txt2shpJWD.Size = new System.Drawing.Size(23, 22);
+            toolStripButton_txt2shpJWD.Text = "toolStripButton_txt2shpJWD";
+            toolStripButton_txt2shpJWD.Click += toolStripButton_txt2shp_Click;
+            // 
+            // splitContainer4
+            // 
+            splitContainer4.Dock = System.Windows.Forms.DockStyle.Fill;
+            splitContainer4.Location = new System.Drawing.Point(0, 0);
+            splitContainer4.Name = "splitContainer4";
+            splitContainer4.Orientation = System.Windows.Forms.Orientation.Horizontal;
+            splitContainer4.Size = new System.Drawing.Size(481, 358);
+            splitContainer4.SplitterDistance = 220;
+            splitContainer4.TabIndex = 0;
+            // 
+            // AddLayerDialog
+            // 
+            AddLayerDialog.Filter = "Shapefiles|*.shp|All files|*.*";
+            AddLayerDialog.InitialDirectory = ".";
+            AddLayerDialog.Multiselect = true;
+            AddLayerDialog.RestoreDirectory = true;
+            AddLayerDialog.Title = "Choose Layer Data";
+            // 
+            // TxtMainForm
+            // 
+            AutoScaleDimensions = new System.Drawing.SizeF(8F, 15F);
+            AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            ClientSize = new System.Drawing.Size(915, 576);
+            Controls.Add(toolStripContainer1);
+            Margin = new System.Windows.Forms.Padding(4, 3, 4, 3);
+            Name = "TxtMainForm";
+            Text = "TxtÓëShp»¥×ª";
+            toolStripContainer1.BottomToolStripPanel.ResumeLayout(false);
+            toolStripContainer1.BottomToolStripPanel.PerformLayout();
+            toolStripContainer1.ContentPanel.ResumeLayout(false);
+            toolStripContainer1.TopToolStripPanel.ResumeLayout(false);
+            toolStripContainer1.TopToolStripPanel.PerformLayout();
+            toolStripContainer1.ResumeLayout(false);
+            toolStripContainer1.PerformLayout();
+            MainStatusStrip.ResumeLayout(false);
+            MainStatusStrip.PerformLayout();
+            splitContainer1.Panel1.ResumeLayout(false);
+            splitContainer1.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer1).EndInit();
+            splitContainer1.ResumeLayout(false);
+            splitContainer3.Panel1.ResumeLayout(false);
+            splitContainer3.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer3).EndInit();
+            splitContainer3.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)LayersDataGridView).EndInit();
+            LayerContextMenu.ResumeLayout(false);
+            splitContainer2.Panel1.ResumeLayout(false);
+            splitContainer2.Panel2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)splitContainer2).EndInit();
+            splitContainer2.ResumeLayout(false);
+            ((System.ComponentModel.ISupportInitialize)FeaturesDataGridView).EndInit();
+            MainToolStrip.ResumeLayout(false);
+            MainToolStrip.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)splitContainer4).EndInit();
+            splitContainer4.ResumeLayout(false);
+            ResumeLayout(false);
+        }
 
-		}
+        #endregion
 
-		#endregion
-
-		private System.Windows.Forms.ToolStripContainer toolStripContainer1;
+        private System.Windows.Forms.ToolStripContainer toolStripContainer1;
 		private System.Windows.Forms.SplitContainer splitContainer1;
 		private System.Windows.Forms.SplitContainer splitContainer2;
 		private System.Windows.Forms.SplitContainer splitContainer4;
@@ -709,6 +740,10 @@ namespace Txt2Shp4Sharp
         private System.Windows.Forms.DataGridViewTextBoxColumn LayerNameColumn;
         private System.Windows.Forms.DataGridViewButtonColumn LayerPropertiesColumn;
         private SharpMap.Forms.MiniMapControl miniMapControl1;
-	}
+        private System.Windows.Forms.ToolStripButton toolStripButton_txt2shp;
+        private System.Windows.Forms.ToolStripButton toolStripButton_shp2txt;
+        private System.Windows.Forms.ToolStripButton toolStripButton_txtsplit;
+        private System.Windows.Forms.ToolStripButton toolStripButton_txt2shpJWD;
+    }
 }
 

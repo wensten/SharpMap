@@ -71,16 +71,16 @@ namespace Txt2Shp4Sharp
 
         private static void registerKnownColors(Dictionary<string, Color> colorTable)
         {
-            foreach (string colorName in Enum.GetNames(typeof (KnownColor)))
+            foreach (string colorName in Enum.GetNames(typeof(KnownColor)))
             {
-                KnownColor color = (KnownColor) Enum.Parse(typeof (KnownColor), colorName);
+                KnownColor color = (KnownColor)Enum.Parse(typeof(KnownColor), colorName);
                 colorTable[colorName] = Color.FromKnownColor(color);
             }
         }
 
         private void registerLayerFactories()
         {
-//			ConfigurationManager.GetSection("LayerFactories");
+            //			ConfigurationManager.GetSection("LayerFactories");
             _layerFactoryCatalog[".shp"] = new ShapeFileLayerFactory();
         }
 
@@ -167,8 +167,8 @@ namespace Txt2Shp4Sharp
             for (var polyIndex = 0; polyIndex < numPolygons; polyIndex++)
             {
                 var vertices = new GeoPoint[5];
-                var upperLeft = new GeoPoint(rndGen.NextDouble()*1000, rndGen.NextDouble()*1000);
-                var sideLength = rndGen.NextDouble()*50;
+                var upperLeft = new GeoPoint(rndGen.NextDouble() * 1000, rndGen.NextDouble() * 1000);
+                var sideLength = rndGen.NextDouble() * 50;
 
                 // Make a square
                 vertices[0] = new GeoPoint(upperLeft.X, upperLeft.Y);
@@ -176,7 +176,7 @@ namespace Txt2Shp4Sharp
                 vertices[2] = new GeoPoint(upperLeft.X + sideLength, upperLeft.Y - sideLength);
                 vertices[3] = new GeoPoint(upperLeft.X, upperLeft.Y - sideLength);
                 vertices[4] = upperLeft;
-                
+
                 geometry.Add(factory.CreatePolygon(factory.CreateLinearRing(vertices), null));
             }
         }
@@ -189,7 +189,7 @@ namespace Txt2Shp4Sharp
                 var numVerticies = rndGen.Next(4, 15);
                 var vertices = new GeoPoint[numVerticies];
 
-                var lastPoint = new GeoPoint(rndGen.NextDouble()*1000, rndGen.NextDouble()*1000);
+                var lastPoint = new GeoPoint(rndGen.NextDouble() * 1000, rndGen.NextDouble() * 1000);
                 vertices[0] = lastPoint;
 
                 for (var vertexIndex = 1; vertexIndex < numVerticies; vertexIndex++)
@@ -209,7 +209,7 @@ namespace Txt2Shp4Sharp
             var numPoints = rndGen.Next(10, 100);
             for (var pointIndex = 0; pointIndex < numPoints; pointIndex++)
             {
-                var point = new GeoPoint(rndGen.NextDouble()*1000, rndGen.NextDouble()*1000);
+                var point = new GeoPoint(rndGen.NextDouble() * 1000, rndGen.NextDouble() * 1000);
                 geometry.Add(factory.CreatePoint(point));
             }
         }
@@ -277,7 +277,7 @@ namespace Txt2Shp4Sharp
 
         private object getLayerTypeIcon(Type type)
         {
-            if (type == typeof (VectorLayer))
+            if (type == typeof(VectorLayer))
             {
                 return Resources.polygon;
             }
@@ -339,32 +339,32 @@ namespace Txt2Shp4Sharp
 
         private void AddLayerToolStripButton_Click(object sender, EventArgs e)
         {
-            BeginInvoke((MethodInvoker) delegate { LoadLayer(); });
+            BeginInvoke((MethodInvoker)delegate { LoadLayer(); });
         }
 
         private void RemoveLayerToolStripButton_Click(object sender, EventArgs e)
         {
-            BeginInvoke((MethodInvoker) delegate { RemoveLayer(); });
+            BeginInvoke((MethodInvoker)delegate { RemoveLayer(); });
         }
 
         private void AddLayerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            BeginInvoke((MethodInvoker) delegate { LoadLayer(); });
+            BeginInvoke((MethodInvoker)delegate { LoadLayer(); });
         }
 
         private void RemoveLayerToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            BeginInvoke((MethodInvoker) delegate { RemoveLayer(); });
+            BeginInvoke((MethodInvoker)delegate { RemoveLayer(); });
         }
 
         private void ZoomToExtentsToolStripButton_Click(object sender, EventArgs e)
         {
-            BeginInvoke((MethodInvoker) delegate { zoomToExtents(); });
+            BeginInvoke((MethodInvoker)delegate { zoomToExtents(); });
         }
 
         private void PanToolStripButton_Click(object sender, EventArgs e)
         {
-            BeginInvoke((MethodInvoker) delegate { changeMode(MapBox.Tools.Pan); });
+            BeginInvoke((MethodInvoker)delegate { changeMode(MapBox.Tools.Pan); });
         }
 
         private void QueryModeToolStripButton_Click(object sender, EventArgs e)
@@ -422,7 +422,7 @@ namespace Txt2Shp4Sharp
 
         private void LayersDataGridView_SelectionChanged(object sender, EventArgs e)
         {
-            BeginInvoke((MethodInvoker) delegate
+            BeginInvoke((MethodInvoker)delegate
                                             {
                                                 changeUIOnLayerSelectionChange();
 
@@ -441,7 +441,40 @@ namespace Txt2Shp4Sharp
 
         private void AddNewRandomGeometryLayer_Click(object sender, EventArgs e)
         {
-            BeginInvoke((MethodInvoker) delegate { addNewRandomGeometryLayer(); });
+            BeginInvoke((MethodInvoker)delegate { addNewRandomGeometryLayer(); });
+        }
+
+        private void toolStripButton_txt2shp_Click(object sender, EventArgs e)
+        {
+            if (sender is ToolStripButton) { 
+                ToolStripButton toolStripButton = (ToolStripButton)sender;
+                String name = toolStripButton.Name;
+                switch (name) {
+                    case "toolStripButton_txt2shp": 
+                        {
+                            MessageBox.Show("debug txt2shp");
+                            break;
+                        }
+                    case "toolStripButton_shp2txt":
+                        {
+                            MessageBox.Show("debug shp2txt");
+                            break;
+                        }
+                    case "toolStripButton_txtsplit":
+                        {
+                            MessageBox.Show("debug txtsplit");
+                            break;
+                        }
+                    case "toolStripButton_txt2shpJWD":
+                        {
+                            MessageBox.Show("debug txt2shpJWD");
+                            break;
+                        }
+                    default:
+                        break;
+                        
+                }
+            }
         }
     }
 }
